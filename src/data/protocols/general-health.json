@@ -1,0 +1,339 @@
+{
+  "id": "general-health",
+  "addictionType": "general",
+  "name": "General Health",
+  "tagline": "60 days to build the daily habits of a healthier life.",
+  "description": "A neuroscience-based 60-day program to build foundational healthy habits — movement, nutrition, sleep, stress management, and connection — and turn them into an automatic, sustainable lifestyle.",
+  "icon": "🌱",
+  "color": "#22d3ee",
+  "durationDays": 60,
+  "phases": [
+    {
+      "id": 0,
+      "label": "P1",
+      "weeks": "Weeks 1-2",
+      "weekRange": [
+        1,
+        2
+      ],
+      "title": "Breaking the Cycle",
+      "tag": "Foundation. One healthy habit at a time.",
+      "vibe": "The first two weeks lay the base: hydrate, move, eat real food, and sleep well. Small consistent actions repeated at the same cues begin forming automatic habits — the brain's energy-saving autopilot working for you.",
+      "rank": "Day One",
+      "kcal": "Sleep 7-9 hrs",
+      "protein": "Hydrate 2-3 L/day",
+      "carbs": "Move 30 min/day",
+      "fat": "Whole foods + veg",
+      "split": "Breathe & de-stress daily"
+    },
+    {
+      "id": 1,
+      "label": "P2",
+      "weeks": "Weeks 3-4",
+      "weekRange": [
+        3,
+        4
+      ],
+      "title": "Rewiring the Brain",
+      "tag": "Stack habits into a routine.",
+      "vibe": "The starter habits are sticking — now stack them. Attach new actions to established ones and add mindfulness for stress. Consistency is turning conscious effort into effortless routine.",
+      "rank": "Rewiring",
+      "kcal": "Sleep 7-9 hrs",
+      "protein": "Hydrate 2-3 L/day",
+      "carbs": "Move 30 min/day",
+      "fat": "Whole foods + veg",
+      "split": "Breathe & de-stress daily"
+    },
+    {
+      "id": 2,
+      "label": "P3",
+      "weeks": "Weeks 5-8",
+      "weekRange": [
+        5,
+        8
+      ],
+      "title": "Building a New Identity",
+      "tag": "A healthy lifestyle on autopilot.",
+      "vibe": "Health is no longer a project — it's your default. Movement, good food, sleep, and calm are simply how you live. You design an environment and routine that make the healthy choice the easy one for good.",
+      "rank": "New Self",
+      "kcal": "Sleep 7-9 hrs",
+      "protein": "Hydrate 2-3 L/day",
+      "carbs": "Move 30 min/day",
+      "fat": "Whole foods + veg",
+      "split": "Breathe & de-stress daily"
+    }
+  ],
+  "dailyTasks": {
+    "0": [
+      {
+        "id": "am_water",
+        "emoji": "💧",
+        "title": "Hydrate first + intention",
+        "note": "500ml water on waking and one intention for the day. Hydration kickstarts metabolism and focus; intention primes the prefrontal cortex.",
+        "xp": 40,
+        "cat": "physical",
+        "hour": 7
+      },
+      {
+        "id": "move",
+        "emoji": "🚶",
+        "title": "30 min movement",
+        "note": "Walk, stretch, or work out. Daily movement improves mood, sleep, and brain health more reliably than any supplement.",
+        "xp": 90,
+        "cat": "physical",
+        "hour": 17
+      },
+      {
+        "id": "nutrition",
+        "emoji": "🥗",
+        "title": "One whole-food meal + veg",
+        "note": "Build a meal around protein and vegetables. Whole foods stabilize energy and reduce the cravings processed food engineers.",
+        "xp": 70,
+        "cat": "cbt",
+        "hour": 13
+      },
+      {
+        "id": "sunlight",
+        "emoji": "☀️",
+        "title": "10 min morning daylight",
+        "note": "Get outside early. Morning light sets your circadian clock for better sleep and daytime energy.",
+        "xp": 50,
+        "cat": "physical",
+        "hour": 8
+      },
+      {
+        "id": "breathe",
+        "emoji": "🧘",
+        "title": "5-10 min breathing / mindfulness",
+        "note": "Slow breathing activates the calming parasympathetic system, lowering the chronic stress that erodes health.",
+        "xp": 70,
+        "cat": "mindfulness",
+        "hour": 20
+      },
+      {
+        "id": "connect",
+        "emoji": "🤝",
+        "title": "Connect with someone",
+        "note": "A call, meal, or chat. Strong social bonds are one of the biggest predictors of long-term health and longevity.",
+        "xp": 60,
+        "cat": "social",
+        "hour": 21
+      },
+      {
+        "id": "journal",
+        "emoji": "📓",
+        "title": "Evening reflection — 3 wins",
+        "note": "Note three things that went well. Gratitude lowers stress and reinforces the habits worth repeating.",
+        "xp": 50,
+        "cat": "reflection",
+        "hour": 22
+      },
+      {
+        "id": "sleep",
+        "emoji": "🛏️",
+        "title": "Sleep 7-9 hrs",
+        "note": "Consistent bed and wake times. Sleep is when the body repairs and the brain consolidates every good habit.",
+        "xp": 90,
+        "cat": "physical",
+        "hour": 23
+      }
+    ],
+    "1": [
+      {
+        "id": "am_water",
+        "emoji": "💧",
+        "title": "Hydrate + morning routine",
+        "note": "Anchor water and light to waking. Stacking habits onto existing cues makes them stick.",
+        "xp": 40,
+        "cat": "physical",
+        "hour": 7
+      },
+      {
+        "id": "move",
+        "emoji": "🏃",
+        "title": "Movement + a little more",
+        "note": "Add intensity or duration. Progressive challenge keeps improving fitness and mood.",
+        "xp": 100,
+        "cat": "physical",
+        "hour": 18
+      },
+      {
+        "id": "nutrition",
+        "emoji": "🥗",
+        "title": "Two whole-food meals",
+        "note": "Extend clean eating across the day. Steady blood sugar means steady energy and fewer cravings.",
+        "xp": 80,
+        "cat": "cbt",
+        "hour": 13
+      },
+      {
+        "id": "habit_stack",
+        "emoji": "🔗",
+        "title": "Stack a new healthy habit",
+        "note": "Attach one new action to an existing one (e.g. stretch after brushing teeth). Habit stacking wires new routines fast.",
+        "xp": 70,
+        "cat": "cbt",
+        "hour": 9
+      },
+      {
+        "id": "breathe",
+        "emoji": "🧘",
+        "title": "10 min mindfulness",
+        "note": "Deepen the practice. Regular mindfulness lowers baseline stress and improves emotional control.",
+        "xp": 70,
+        "cat": "mindfulness",
+        "hour": 20
+      },
+      {
+        "id": "connect",
+        "emoji": "🤝",
+        "title": "Meaningful connection",
+        "note": "Invest in a relationship today. Connection buffers stress and boosts wellbeing.",
+        "xp": 60,
+        "cat": "social",
+        "hour": 21
+      },
+      {
+        "id": "journal",
+        "emoji": "📓",
+        "title": "Gratitude + plan tomorrow",
+        "note": "Reflect and set up an easy win for tomorrow. Planning removes friction.",
+        "xp": 50,
+        "cat": "reflection",
+        "hour": 22
+      }
+    ],
+    "2": [
+      {
+        "id": "am_ritual",
+        "emoji": "🌅",
+        "title": "Healthy morning ritual",
+        "note": "Water, light, movement — automatic now. A strong morning sets the whole day.",
+        "xp": 50,
+        "cat": "physical",
+        "hour": 7
+      },
+      {
+        "id": "move",
+        "emoji": "🏃",
+        "title": "Train — your standard now",
+        "note": "Movement is simply part of your life. Keep it varied and enjoyable so it lasts.",
+        "xp": 100,
+        "cat": "physical",
+        "hour": 18
+      },
+      {
+        "id": "nutrition",
+        "emoji": "🥗",
+        "title": "Eat well by default",
+        "note": "Whole foods are your normal. Design your kitchen so the healthy choice is the easy one.",
+        "xp": 80,
+        "cat": "cbt",
+        "hour": 13
+      },
+      {
+        "id": "mindful",
+        "emoji": "🧘",
+        "title": "15 min mindfulness / de-stress",
+        "note": "Keep stress low for long-term heart and brain health.",
+        "xp": 70,
+        "cat": "mindfulness",
+        "hour": 20
+      },
+      {
+        "id": "connect",
+        "emoji": "🫂",
+        "title": "Nurture your circle",
+        "note": "Relationships are a cornerstone of a long, healthy life. Tend them.",
+        "xp": 70,
+        "cat": "social",
+        "hour": 21
+      },
+      {
+        "id": "reflect",
+        "emoji": "📓",
+        "title": "Identity journal",
+        "note": "Write as a healthy, active person. Identity keeps habits alive after day 60.",
+        "xp": 60,
+        "cat": "reflection",
+        "hour": 22
+      },
+      {
+        "id": "sleep",
+        "emoji": "🛏️",
+        "title": "Protect sleep",
+        "note": "Guard your foundation. Everything good is built on good sleep.",
+        "xp": 90,
+        "cat": "physical",
+        "hour": 23
+      }
+    ]
+  },
+  "quotes": [
+    "Health is built in the small choices you repeat every day.",
+    "You don't have to be extreme, just consistent.",
+    "Motion is the best medicine.",
+    "Take care of your body — it's the only place you have to live.",
+    "Good sleep is the foundation everything else is built on.",
+    "Small habits, stacked daily, become a different life.",
+    "Whole foods, real movement, deep sleep — the boring stuff works.",
+    "Stress managed is years gained.",
+    "Connection is as vital to health as diet and exercise.",
+    "Sixty days of good habits become who you are."
+  ],
+  "unlocks": [
+    {
+      "id": "study",
+      "name": "Recovery Library",
+      "emoji": "📚",
+      "blurb": "Daily neuroscience lessons on habit change & the brain.",
+      "requireDay": 1
+    },
+    {
+      "id": "faith",
+      "name": "Reflection Vault",
+      "emoji": "🕯️",
+      "blurb": "Affirmations, prayers & grounding practices for any moment.",
+      "requireDay": 1
+    },
+    {
+      "id": "cravings",
+      "name": "Urge Toolkit",
+      "emoji": "🌊",
+      "blurb": "SOBER breathing + 10 tools to surf any craving in 5 minutes.",
+      "requireStreak": 2
+    },
+    {
+      "id": "identity",
+      "name": "Healthy Self Blueprint",
+      "emoji": "🧭",
+      "blurb": "Your new-identity blueprint unlocks after two weeks of proof.",
+      "requireDay": 14
+    },
+    {
+      "id": "phase2",
+      "name": "Rewiring Protocol",
+      "emoji": "🔁",
+      "blurb": "Phase 2 unlocks at Day 15 — new routines replace old loops.",
+      "requireDay": 15
+    },
+    {
+      "id": "phase3",
+      "name": "New Identity Protocol",
+      "emoji": "👑",
+      "blurb": "The final phase. Day 29+ — you become the person, not the streak.",
+      "requireDay": 29
+    },
+    {
+      "id": "alarm",
+      "name": "Alarm Mode",
+      "emoji": "🚨",
+      "blurb": "Loud alarm + check-in dialog for high-risk moments.",
+      "requireStreak": 3
+    }
+  ],
+  "phaseBoundaries": [
+    14,
+    28
+  ]
+}

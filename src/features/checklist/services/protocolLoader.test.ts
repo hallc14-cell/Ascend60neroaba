@@ -5,7 +5,17 @@ import {
   tasksForDay,
   resolveTaskXP,
   listProtocols,
+  listRecoveryProtocols,
 } from "./protocolLoader";
+
+const RECOVERY_IDS = [
+  "alcohol-recovery",
+  "opioid-recovery",
+  "weight-loss",
+  "digital-detox",
+  "productivity",
+  "general-health",
+];
 
 describe("protocolLoader", () => {
   it("loads the Looksmax protocol by default", () => {
@@ -44,5 +54,40 @@ describe("protocolLoader", () => {
   it("listProtocols includes Looksmax", () => {
     const ids = listProtocols().map((p) => p.id);
     expect(ids).toContain("looksmax");
+  });
+
+  it("registers all six Phase 2 recovery protocols", () => {
+    const ids = listRecoveryProtocols().map((p) => p.id);
+    for (const id of RECOVERY_IDS) expect(ids).toContain(id);
+    // Recovery list must exclude the default Looksmax program.
+    expect(ids).not.toContain("looksmax");
+  });
+
+  it("every recovery protocol is a valid, complete 60-day program", () => {
+    for (const id of RECOVERY_IDS) {
+      const p = loadProtocol(id);
+      expect(p.id).toBe(id);
+      expect(p.durationDays).toBe(60);
+      expect(p.phases.length).toBe(3);
+      expect(p.icon).toBeTruthy();
+      expect(p.color).toMatch(/^#/);
+      // Non-empty task list for a day in each phase (0/1/2).
+      for (const day of [1, 20, 45]) {
+        const tasks = tasksForDay(p, day);
+        expect(tasks.length).toBeGreaterThan(0);
+        // Every task id resolves to a positive XP somewhere in the program.
+        // (resolveTaskXP returns the first phase's value for ids reused across
+        // phases — same behavior as the default Looksmax program.)
+        expect(resolveTaskXP(p, tasks[0].id)).toBeGreaterThan(0);
+      }
+      // Exact XP match for the day-1 (phase 0) tasks.
+      const day1 = tasksForDay(p, 1);
+      expect(resolveTaskXP(p, day1[0].id)).toBe(day1[0].xp);
+      // Required unlock ids consumed by the dashboard exist.
+      const unlockIds = p.unlocks.map((u) => u.id);
+      for (const req of ["phase2", "phase3", "alarm"]) {
+        expect(unlockIds).toContain(req);
+      }
+    }
   });
 });

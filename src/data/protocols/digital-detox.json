@@ -1,0 +1,339 @@
+{
+  "id": "digital-detox",
+  "addictionType": "digital",
+  "name": "Digital Detox",
+  "tagline": "60 days to break the scroll and reclaim your attention.",
+  "description": "A neuroscience-based 60-day program to beat phone, social media, and screen addiction — kill the notification-dopamine loop, restore your attention span, and rebuild an analog life you actually enjoy.",
+  "icon": "📵",
+  "color": "#f472b6",
+  "durationDays": 60,
+  "phases": [
+    {
+      "id": 0,
+      "label": "P1",
+      "weeks": "Weeks 1-2",
+      "weekRange": [
+        1,
+        2
+      ],
+      "title": "Breaking the Cycle",
+      "tag": "Detox the dopamine slot machine.",
+      "vibe": "The first two weeks strip the hooks: kill notifications, grayscale the screen, and keep the phone out of the bedroom. Each buzz was a tiny dopamine hit training you to check. Remove the cue and the loop starves.",
+      "rank": "Day One",
+      "kcal": "Sleep 7-9 hrs",
+      "protein": "No phone first/last hour",
+      "carbs": "Move 20+ min/day",
+      "fat": "1 real conversation/day",
+      "split": "Pause before you unlock"
+    },
+    {
+      "id": 1,
+      "label": "P2",
+      "weeks": "Weeks 3-4",
+      "weekRange": [
+        3,
+        4
+      ],
+      "title": "Rewiring the Brain",
+      "tag": "Replace scrolling with living.",
+      "vibe": "Your thumb still reaches for the phone at the old moments — give those moments a better routine. A book, a walk, a real conversation. You're rebuilding an attention span that endless feeds deliberately fractured.",
+      "rank": "Rewiring",
+      "kcal": "Sleep 7-9 hrs",
+      "protein": "No phone first/last hour",
+      "carbs": "Move 20+ min/day",
+      "fat": "1 real conversation/day",
+      "split": "Pause before you unlock"
+    },
+    {
+      "id": 2,
+      "label": "P3",
+      "weeks": "Weeks 5-8",
+      "weekRange": [
+        5,
+        8
+      ],
+      "title": "Building a New Identity",
+      "tag": "Present by default.",
+      "vibe": "You're now someone who uses tech on purpose, not on reflex. Deep focus, real presence, and boredom tolerance are yours again. You design a life the feed can't compete with.",
+      "rank": "New Self",
+      "kcal": "Sleep 7-9 hrs",
+      "protein": "No phone first/last hour",
+      "carbs": "Move 20+ min/day",
+      "fat": "1 real conversation/day",
+      "split": "Pause before you unlock"
+    }
+  ],
+  "dailyTasks": {
+    "0": [
+      {
+        "id": "no_phone_am",
+        "emoji": "🌅",
+        "title": "No phone for the first hour",
+        "note": "Wake without the scroll. Water, light, one intention. Starting on your own terms protects your attention before the feed hijacks it.",
+        "xp": 60,
+        "cat": "reflection",
+        "hour": 7
+      },
+      {
+        "id": "notifications",
+        "emoji": "🔕",
+        "title": "Kill non-essential notifications",
+        "note": "Turn off badges and alerts for social/news. Each ping is an engineered dopamine cue — remove the cue, break the loop.",
+        "xp": 70,
+        "cat": "cbt",
+        "hour": 8
+      },
+      {
+        "id": "grayscale",
+        "emoji": "⚫",
+        "title": "Grayscale + tidy home screen",
+        "note": "Set the screen to grayscale and hide addictive apps off page one. Color and one-tap access are designed to pull you back; friction reduces use.",
+        "xp": 50,
+        "cat": "cbt",
+        "hour": 9
+      },
+      {
+        "id": "move",
+        "emoji": "🚶",
+        "title": "20 min screen-free movement",
+        "note": "Walk without headphones or leave the phone home. Movement gives real dopamine and lets a restless mind settle.",
+        "xp": 90,
+        "cat": "physical",
+        "hour": 17
+      },
+      {
+        "id": "pause",
+        "emoji": "✋",
+        "title": "Pause before you unlock",
+        "note": "Before opening a feed, take one breath and ask 'why?'. Inserting a gap between cue and action is how you regain control of the impulse.",
+        "xp": 60,
+        "cat": "mindfulness",
+        "hour": 20
+      },
+      {
+        "id": "analog",
+        "emoji": "📖",
+        "title": "30 min analog activity",
+        "note": "Read a paper book, cook, draw, play music. Rebuilds the sustained-attention circuits infinite scroll erodes.",
+        "xp": 70,
+        "cat": "cbt",
+        "hour": 21
+      },
+      {
+        "id": "phone_bed",
+        "emoji": "🛏️",
+        "title": "Phone out of the bedroom",
+        "note": "Charge it in another room; use a real alarm. Blue light and late scrolling wreck sleep and morning willpower.",
+        "xp": 80,
+        "cat": "physical",
+        "hour": 22
+      },
+      {
+        "id": "journal",
+        "emoji": "📓",
+        "title": "Evening journal — screen-time review",
+        "note": "Check your screen-time number and note one trigger. Awareness of the real number is a powerful corrective.",
+        "xp": 50,
+        "cat": "reflection",
+        "hour": 23
+      }
+    ],
+    "1": [
+      {
+        "id": "no_phone_am",
+        "emoji": "🌅",
+        "title": "Phone-free morning routine",
+        "note": "Extend the phone-free window. The longer you protect the morning, the sharper the whole day.",
+        "xp": 60,
+        "cat": "reflection",
+        "hour": 7
+      },
+      {
+        "id": "replace",
+        "emoji": "🔁",
+        "title": "Run your scroll-replacement",
+        "note": "When you'd normally scroll (line, break, couch), do your swap: read, stretch, breathe. Same cue, new routine.",
+        "xp": 80,
+        "cat": "cbt",
+        "hour": 12
+      },
+      {
+        "id": "deep_focus",
+        "emoji": "🎯",
+        "title": "45 min single-task focus",
+        "note": "Phone in another room, one task, no tabs. Deep work rebuilds the attention span that apps fragmented.",
+        "xp": 100,
+        "cat": "cbt",
+        "hour": 15
+      },
+      {
+        "id": "move",
+        "emoji": "🏃",
+        "title": "30 min movement",
+        "note": "Screen-free exercise. Real-world dopamine makes the digital kind less tempting.",
+        "xp": 90,
+        "cat": "physical",
+        "hour": 18
+      },
+      {
+        "id": "connect",
+        "emoji": "🗣️",
+        "title": "One real, in-person/voice talk",
+        "note": "Call or meet someone — no texting. Face-to-face contact delivers the connection social media only simulates.",
+        "xp": 70,
+        "cat": "social",
+        "hour": 20
+      },
+      {
+        "id": "boredom",
+        "emoji": "🧘",
+        "title": "Sit with 10 min of boredom",
+        "note": "No input — just be. Tolerating boredom rebuilds impulse control and sparks real creativity.",
+        "xp": 70,
+        "cat": "mindfulness",
+        "hour": 21
+      },
+      {
+        "id": "journal",
+        "emoji": "📓",
+        "title": "Reflect + set tomorrow's limits",
+        "note": "Review usage and set app limits for tomorrow. Pre-commitment beats in-the-moment willpower.",
+        "xp": 50,
+        "cat": "reflection",
+        "hour": 22
+      }
+    ],
+    "2": [
+      {
+        "id": "no_phone_am",
+        "emoji": "🌅",
+        "title": "Intentional morning",
+        "note": "Wake, move, plan — screens wait. This is simply how you live now.",
+        "xp": 60,
+        "cat": "reflection",
+        "hour": 7
+      },
+      {
+        "id": "deep_focus",
+        "emoji": "🎯",
+        "title": "60-90 min deep work",
+        "note": "Long, undistracted focus is your superpower again. Guard it fiercely.",
+        "xp": 110,
+        "cat": "cbt",
+        "hour": 10
+      },
+      {
+        "id": "move",
+        "emoji": "🏃",
+        "title": "Train — your standard now",
+        "note": "Movement anchors a low-stimulation, high-energy life.",
+        "xp": 90,
+        "cat": "physical",
+        "hour": 18
+      },
+      {
+        "id": "create",
+        "emoji": "🎨",
+        "title": "Create, don't just consume",
+        "note": "Write, build, make something. Producing rewires you from passive feed to active life.",
+        "xp": 90,
+        "cat": "cbt",
+        "hour": 15
+      },
+      {
+        "id": "connect",
+        "emoji": "🫂",
+        "title": "Real-world connection",
+        "note": "People over profiles. Presence is the whole point.",
+        "xp": 80,
+        "cat": "social",
+        "hour": 20
+      },
+      {
+        "id": "reflect",
+        "emoji": "📓",
+        "title": "Identity journal",
+        "note": "Write as a focused, present person. Self-image steers behavior.",
+        "xp": 60,
+        "cat": "reflection",
+        "hour": 22
+      },
+      {
+        "id": "phone_bed",
+        "emoji": "🛏️",
+        "title": "Phone out, wind down",
+        "note": "Analog evenings, deep sleep. Protect the reset.",
+        "xp": 80,
+        "cat": "physical",
+        "hour": 23
+      }
+    ]
+  },
+  "quotes": [
+    "Your attention is the most valuable thing you own. Stop giving it away for free.",
+    "The urge to check is a wave — let it pass unclicked.",
+    "Boredom is where creativity is born.",
+    "You don't need a longer feed. You need a fuller life.",
+    "Every notification you kill is attention you keep.",
+    "Be where your feet are.",
+    "The apps were built to hook you. Unhooking is a skill you can learn.",
+    "Presence is a superpower in a distracted world.",
+    "Consume less, create more.",
+    "Sixty days off the slot machine and your mind comes back."
+  ],
+  "unlocks": [
+    {
+      "id": "study",
+      "name": "Recovery Library",
+      "emoji": "📚",
+      "blurb": "Daily neuroscience lessons on habit change & the brain.",
+      "requireDay": 1
+    },
+    {
+      "id": "faith",
+      "name": "Reflection Vault",
+      "emoji": "🕯️",
+      "blurb": "Affirmations, prayers & grounding practices for any moment.",
+      "requireDay": 1
+    },
+    {
+      "id": "cravings",
+      "name": "Urge Toolkit",
+      "emoji": "🌊",
+      "blurb": "SOBER breathing + 10 tools to surf any craving in 5 minutes.",
+      "requireStreak": 2
+    },
+    {
+      "id": "identity",
+      "name": "Focused Self Blueprint",
+      "emoji": "🧭",
+      "blurb": "Your new-identity blueprint unlocks after two weeks of proof.",
+      "requireDay": 14
+    },
+    {
+      "id": "phase2",
+      "name": "Rewiring Protocol",
+      "emoji": "🔁",
+      "blurb": "Phase 2 unlocks at Day 15 — new routines replace old loops.",
+      "requireDay": 15
+    },
+    {
+      "id": "phase3",
+      "name": "New Identity Protocol",
+      "emoji": "👑",
+      "blurb": "The final phase. Day 29+ — you become the person, not the streak.",
+      "requireDay": 29
+    },
+    {
+      "id": "alarm",
+      "name": "Alarm Mode",
+      "emoji": "🚨",
+      "blurb": "Loud alarm + check-in dialog for high-risk moments.",
+      "requireStreak": 3
+    }
+  ],
+  "phaseBoundaries": [
+    14,
+    28
+  ]
+}

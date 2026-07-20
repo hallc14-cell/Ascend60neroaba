@@ -1,0 +1,339 @@
+{
+  "id": "productivity",
+  "addictionType": "productivity",
+  "name": "Productivity",
+  "tagline": "60 days to beat procrastination and build deep focus.",
+  "description": "A neuroscience-based 60-day program to defeat procrastination and distraction — rewire the avoidance loop, train deep-focus attention, and build a daily execution system that compounds.",
+  "icon": "⚡",
+  "color": "#fbbf24",
+  "durationDays": 60,
+  "phases": [
+    {
+      "id": 0,
+      "label": "P1",
+      "weeks": "Weeks 1-2",
+      "weekRange": [
+        1,
+        2
+      ],
+      "title": "Breaking the Cycle",
+      "tag": "Detox distraction. Ship one thing.",
+      "vibe": "Procrastination is an emotional-avoidance loop: task → discomfort → escape to your phone → relief. The first two weeks break it by shrinking tasks until starting is easy and removing the escape hatches around you.",
+      "rank": "Day One",
+      "kcal": "Sleep 7-9 hrs",
+      "protein": "1 deep-work block/day",
+      "carbs": "Move 20+ min/day",
+      "fat": "Plan the night before",
+      "split": "Start before you feel ready"
+    },
+    {
+      "id": 1,
+      "label": "P2",
+      "weeks": "Weeks 3-4",
+      "weekRange": [
+        3,
+        4
+      ],
+      "title": "Rewiring the Brain",
+      "tag": "Deep work as the default.",
+      "vibe": "You still feel the pull to bail when work gets hard — now you have a routine for it. Time-block, single-task, and ride the discomfort for a few minutes until focus kicks in. Each rep strengthens your attention.",
+      "rank": "Rewiring",
+      "kcal": "Sleep 7-9 hrs",
+      "protein": "1 deep-work block/day",
+      "carbs": "Move 20+ min/day",
+      "fat": "Plan the night before",
+      "split": "Start before you feel ready"
+    },
+    {
+      "id": 2,
+      "label": "P3",
+      "weeks": "Weeks 5-8",
+      "weekRange": [
+        5,
+        8
+      ],
+      "title": "Building a New Identity",
+      "tag": "A person who executes.",
+      "vibe": "Deep work, follow-through, and calm focus are simply who you are now. You protect your peak hours, finish what you start, and build a system that compounds long past day 60.",
+      "rank": "New Self",
+      "kcal": "Sleep 7-9 hrs",
+      "protein": "1 deep-work block/day",
+      "carbs": "Move 20+ min/day",
+      "fat": "Plan the night before",
+      "split": "Start before you feel ready"
+    }
+  ],
+  "dailyTasks": {
+    "0": [
+      {
+        "id": "plan_day",
+        "emoji": "🌅",
+        "title": "Plan the day — pick 1 priority",
+        "note": "Water, then write your single most important task (MIT). Deciding in advance removes the morning decision fatigue that fuels procrastination.",
+        "xp": 60,
+        "cat": "cbt",
+        "hour": 7
+      },
+      {
+        "id": "two_min",
+        "emoji": "▶️",
+        "title": "The 2-minute start",
+        "note": "Commit to just 2 minutes on the hardest task. Starting — not finishing — is the barrier; motion creates motivation, not the reverse.",
+        "xp": 70,
+        "cat": "cbt",
+        "hour": 9
+      },
+      {
+        "id": "deep_block",
+        "emoji": "🎯",
+        "title": "One 45-min focus block",
+        "note": "Phone away, one task, timer on. Single-tasking rebuilds the focus circuits that constant switching degrades.",
+        "xp": 100,
+        "cat": "cbt",
+        "hour": 10
+      },
+      {
+        "id": "remove_distraction",
+        "emoji": "🔕",
+        "title": "Remove one distraction",
+        "note": "Silence the phone, close tabs, block a site. You can't out-willpower a slot machine — remove the cue instead.",
+        "xp": 60,
+        "cat": "cbt",
+        "hour": 12
+      },
+      {
+        "id": "move",
+        "emoji": "🚶",
+        "title": "20 min movement",
+        "note": "A walk or workout mid-day. Exercise boosts dopamine and focus and clears the mental fog that invites escape.",
+        "xp": 80,
+        "cat": "physical",
+        "hour": 17
+      },
+      {
+        "id": "urge_pause",
+        "emoji": "✋",
+        "title": "Pause before you bail",
+        "note": "When you feel the urge to escape a task, breathe and name the feeling. Avoidance is emotional; labeling it hands control back to the thinking brain.",
+        "xp": 60,
+        "cat": "mindfulness",
+        "hour": 15
+      },
+      {
+        "id": "shutdown",
+        "emoji": "📓",
+        "title": "Shutdown review + plan tomorrow",
+        "note": "List what you shipped and set tomorrow's MIT. A clear endpoint prevents work bleeding into rest and rumination.",
+        "xp": 60,
+        "cat": "reflection",
+        "hour": 21
+      },
+      {
+        "id": "sleep",
+        "emoji": "🛏️",
+        "title": "Protect sleep 7-9 hrs",
+        "note": "Sleep is the ultimate cognitive enhancer — willpower and focus collapse without it.",
+        "xp": 90,
+        "cat": "physical",
+        "hour": 23
+      }
+    ],
+    "1": [
+      {
+        "id": "plan_day",
+        "emoji": "🌅",
+        "title": "Plan + top 3 tasks",
+        "note": "Set your MIT plus two supporting tasks. A short, ranked list beats an overwhelming one.",
+        "xp": 60,
+        "cat": "cbt",
+        "hour": 7
+      },
+      {
+        "id": "deep_block",
+        "emoji": "🎯",
+        "title": "Two 50-min deep-work blocks",
+        "note": "Two focused sprints with a break between. Building block length grows your attention capacity.",
+        "xp": 110,
+        "cat": "cbt",
+        "hour": 10
+      },
+      {
+        "id": "replace",
+        "emoji": "🔁",
+        "title": "Run your anti-distraction routine",
+        "note": "At your usual slump time, do the swap: stand, breathe, refocus — instead of grabbing the phone. Same cue, new routine.",
+        "xp": 80,
+        "cat": "cbt",
+        "hour": 15
+      },
+      {
+        "id": "move",
+        "emoji": "🏃",
+        "title": "30 min movement",
+        "note": "Exercise sharpens executive function for hours. Treat it as focus fuel, not a reward.",
+        "xp": 90,
+        "cat": "physical",
+        "hour": 18
+      },
+      {
+        "id": "single_task",
+        "emoji": "🧠",
+        "title": "Single-task everything today",
+        "note": "No multitasking. Task-switching has a real cognitive cost; doing one thing fully is faster and calmer.",
+        "xp": 70,
+        "cat": "mindfulness",
+        "hour": 12
+      },
+      {
+        "id": "connect",
+        "emoji": "🤝",
+        "title": "Share progress / accountability",
+        "note": "Tell someone what you'll finish today. Accountability harnesses social reward to drive follow-through.",
+        "xp": 60,
+        "cat": "social",
+        "hour": 20
+      },
+      {
+        "id": "shutdown",
+        "emoji": "📓",
+        "title": "Shutdown review",
+        "note": "Close the loop, plan tomorrow. Reflection turns effort into a repeatable system.",
+        "xp": 60,
+        "cat": "reflection",
+        "hour": 21
+      }
+    ],
+    "2": [
+      {
+        "id": "plan_day",
+        "emoji": "🌅",
+        "title": "Plan — automatic now",
+        "note": "MIT set before the day starts. Systems, not willpower, run your days.",
+        "xp": 60,
+        "cat": "cbt",
+        "hour": 7
+      },
+      {
+        "id": "deep_block",
+        "emoji": "🎯",
+        "title": "Deep work — your standard",
+        "note": "Long, protected focus is who you are. Guard your peak hours ruthlessly.",
+        "xp": 120,
+        "cat": "cbt",
+        "hour": 10
+      },
+      {
+        "id": "move",
+        "emoji": "🏃",
+        "title": "Train — your standard now",
+        "note": "Movement keeps the mind sharp and the mood steady.",
+        "xp": 90,
+        "cat": "physical",
+        "hour": 18
+      },
+      {
+        "id": "build",
+        "emoji": "🚀",
+        "title": "Advance your biggest project",
+        "note": "Pour compounding energy into the thing that matters most. Momentum is your identity now.",
+        "xp": 100,
+        "cat": "cbt",
+        "hour": 14
+      },
+      {
+        "id": "reflect_week",
+        "emoji": "📈",
+        "title": "Weekly review of systems",
+        "note": "Refine what works, cut what doesn't. Continuous improvement is the productivity edge.",
+        "xp": 70,
+        "cat": "reflection",
+        "hour": 16
+      },
+      {
+        "id": "journal",
+        "emoji": "📓",
+        "title": "Identity journal",
+        "note": "Write as a disciplined person who finishes. Self-image drives daily action.",
+        "xp": 60,
+        "cat": "reflection",
+        "hour": 21
+      },
+      {
+        "id": "sleep",
+        "emoji": "🛏️",
+        "title": "Protect sleep",
+        "note": "Recovery powers tomorrow's focus. Non-negotiable.",
+        "xp": 90,
+        "cat": "physical",
+        "hour": 23
+      }
+    ]
+  },
+  "quotes": [
+    "Starting is the whole battle. Motion makes motivation.",
+    "You don't need to feel like it. You need to begin.",
+    "Focus is a muscle — every block makes it stronger.",
+    "Procrastination is avoidance of a feeling, not a task.",
+    "Protect your peak hours like your life depends on it.",
+    "Done beats perfect. Ship it.",
+    "One deep-work block a day compounds into a different life.",
+    "Distraction is a choice you can stop making.",
+    "Discipline is choosing what you want most over what you want now.",
+    "Sixty days of showing up rewires who you are."
+  ],
+  "unlocks": [
+    {
+      "id": "study",
+      "name": "Recovery Library",
+      "emoji": "📚",
+      "blurb": "Daily neuroscience lessons on habit change & the brain.",
+      "requireDay": 1
+    },
+    {
+      "id": "faith",
+      "name": "Reflection Vault",
+      "emoji": "🕯️",
+      "blurb": "Affirmations, prayers & grounding practices for any moment.",
+      "requireDay": 1
+    },
+    {
+      "id": "cravings",
+      "name": "Urge Toolkit",
+      "emoji": "🌊",
+      "blurb": "SOBER breathing + 10 tools to surf any craving in 5 minutes.",
+      "requireStreak": 2
+    },
+    {
+      "id": "identity",
+      "name": "Disciplined Self Blueprint",
+      "emoji": "🧭",
+      "blurb": "Your new-identity blueprint unlocks after two weeks of proof.",
+      "requireDay": 14
+    },
+    {
+      "id": "phase2",
+      "name": "Rewiring Protocol",
+      "emoji": "🔁",
+      "blurb": "Phase 2 unlocks at Day 15 — new routines replace old loops.",
+      "requireDay": 15
+    },
+    {
+      "id": "phase3",
+      "name": "New Identity Protocol",
+      "emoji": "👑",
+      "blurb": "The final phase. Day 29+ — you become the person, not the streak.",
+      "requireDay": 29
+    },
+    {
+      "id": "alarm",
+      "name": "Alarm Mode",
+      "emoji": "🚨",
+      "blurb": "Loud alarm + check-in dialog for high-risk moments.",
+      "requireStreak": 3
+    }
+  ],
+  "phaseBoundaries": [
+    14,
+    28
+  ]
+}

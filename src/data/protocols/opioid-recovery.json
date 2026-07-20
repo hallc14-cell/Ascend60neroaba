@@ -1,0 +1,339 @@
+{
+  "id": "opioid-recovery",
+  "addictionType": "opioid",
+  "name": "Opioid Recovery",
+  "tagline": "60 days to heal the reward system and reclaim control.",
+  "description": "A neuroscience-based 60-day program for opioid recovery — support your treatment plan, retrain a hijacked dopamine system, manage pain and stress without opioids, and rebuild a life worth staying present for.",
+  "icon": "💊",
+  "color": "#a78bfa",
+  "durationDays": 60,
+  "phases": [
+    {
+      "id": 0,
+      "label": "P1",
+      "weeks": "Weeks 1-2",
+      "weekRange": [
+        1,
+        2
+      ],
+      "title": "Breaking the Cycle",
+      "tag": "Stabilize. Lean on your support.",
+      "vibe": "Recovery from opioids is medical as well as mental — stay connected to your treatment team and take it hour by hour. These two weeks are about safety, structure, and replacing the chemical reward with small real ones. Never detox alone; call your provider for any severe symptoms.",
+      "rank": "Day One",
+      "kcal": "Sleep 7-9 hrs",
+      "protein": "Follow your care plan",
+      "carbs": "Move gently daily",
+      "fat": "1 support contact/day",
+      "split": "Breathe through pain waves"
+    },
+    {
+      "id": 1,
+      "label": "P2",
+      "weeks": "Weeks 3-4",
+      "weekRange": [
+        3,
+        4
+      ],
+      "title": "Rewiring the Brain",
+      "tag": "New routines, restored rewards.",
+      "vibe": "Opioids flooded and then flattened your dopamine system. Now you rebuild it slowly — movement, sunlight, connection, and accomplishment restore natural reward chemistry. Give every craving a new routine to run.",
+      "rank": "Rewiring",
+      "kcal": "Sleep 7-9 hrs",
+      "protein": "Follow your care plan",
+      "carbs": "Move gently daily",
+      "fat": "1 support contact/day",
+      "split": "Breathe through pain waves"
+    },
+    {
+      "id": 2,
+      "label": "P3",
+      "weeks": "Weeks 5-8",
+      "weekRange": [
+        5,
+        8
+      ],
+      "title": "Building a New Identity",
+      "tag": "A life bigger than the substance.",
+      "vibe": "You're building reasons to stay present: purpose, people, and self-respect. You manage pain and stress with real tools and you help others walk the path behind you.",
+      "rank": "New Self",
+      "kcal": "Sleep 7-9 hrs",
+      "protein": "Follow your care plan",
+      "carbs": "Move gently daily",
+      "fat": "1 support contact/day",
+      "split": "Breathe through pain waves"
+    }
+  ],
+  "dailyTasks": {
+    "0": [
+      {
+        "id": "am_intent",
+        "emoji": "🌅",
+        "title": "Morning check-in + medication",
+        "note": "Water, take any prescribed recovery medication (e.g. as directed), and set one intention. Structure and adherence to your plan are the backbone of early recovery.",
+        "xp": 60,
+        "cat": "reflection",
+        "hour": 7
+      },
+      {
+        "id": "support",
+        "emoji": "☎️",
+        "title": "Contact your support line",
+        "note": "Message your counselor, sponsor, or a trusted person. Isolation feeds relapse; a daily human anchor changes outcomes.",
+        "xp": 70,
+        "cat": "social",
+        "hour": 9
+      },
+      {
+        "id": "halt",
+        "emoji": "🧭",
+        "title": "HALT + basic needs",
+        "note": "Hungry, Angry, Lonely, Tired? Meet the real need. Cravings often ride on unmet basics — food, rest, and connection blunt them.",
+        "xp": 40,
+        "cat": "mindfulness",
+        "hour": 12
+      },
+      {
+        "id": "move",
+        "emoji": "🚶",
+        "title": "Gentle movement 15-20 min",
+        "note": "A walk or light stretch. Movement releases natural endorphins — your body's own pain relief and mood lift — helping the reward system relearn.",
+        "xp": 80,
+        "cat": "physical",
+        "hour": 17
+      },
+      {
+        "id": "urge_surf",
+        "emoji": "🌊",
+        "title": "Urge surfing — SOBER breath",
+        "note": "Stop, Observe, Breathe, Expand, Respond. Cravings and pain both come in waves that crest and fall. Breathe slowly through the peak.",
+        "xp": 90,
+        "cat": "mindfulness",
+        "hour": 20
+      },
+      {
+        "id": "comfort",
+        "emoji": "🛋️",
+        "title": "Non-drug comfort ritual",
+        "note": "Heat pad, warm shower, calming music, tea. Teaching the brain that comfort has many sources loosens the opioid's monopoly.",
+        "xp": 50,
+        "cat": "cbt",
+        "hour": 21
+      },
+      {
+        "id": "journal",
+        "emoji": "📓",
+        "title": "Evening journal — feelings + triggers",
+        "note": "Name pain levels, moods, and triggers. Labeling emotion reduces its grip and gives your team useful information.",
+        "xp": 60,
+        "cat": "reflection",
+        "hour": 22
+      },
+      {
+        "id": "sleep",
+        "emoji": "🛏️",
+        "title": "Wind-down + sleep",
+        "note": "Same time nightly, screens off. Sleep repairs the brain and lowers next-day craving and pain sensitivity.",
+        "xp": 90,
+        "cat": "physical",
+        "hour": 23
+      }
+    ],
+    "1": [
+      {
+        "id": "am_intent",
+        "emoji": "🌅",
+        "title": "Morning intention + sunlight",
+        "note": "Water, intention, 10 min of daylight. Morning light resets circadian rhythm and gently supports dopamine — free medicine for a healing brain.",
+        "xp": 60,
+        "cat": "physical",
+        "hour": 7
+      },
+      {
+        "id": "replace",
+        "emoji": "🔁",
+        "title": "Run your replacement routine",
+        "note": "At a former high-risk time, do your chosen activity (walk, call, craft). Same cue, new routine rewires the loop.",
+        "xp": 90,
+        "cat": "cbt",
+        "hour": 17
+      },
+      {
+        "id": "move",
+        "emoji": "🚴",
+        "title": "25-30 min movement",
+        "note": "Build a bit of intensity as your body allows. Exercise steadily rebuilds natural dopamine and endorphin function.",
+        "xp": 100,
+        "cat": "physical",
+        "hour": 18
+      },
+      {
+        "id": "meditate",
+        "emoji": "🧘",
+        "title": "10 min mindfulness / body scan",
+        "note": "Notice sensations without reacting. This strengthens tolerance for discomfort — the skill opioids destroyed.",
+        "xp": 80,
+        "cat": "mindfulness",
+        "hour": 12
+      },
+      {
+        "id": "group",
+        "emoji": "🫂",
+        "title": "Attend / join a support group",
+        "note": "Meeting, group chat, or therapy. Shared recovery multiplies your odds and rebuilds social reward.",
+        "xp": 80,
+        "cat": "social",
+        "hour": 20
+      },
+      {
+        "id": "pain_plan",
+        "emoji": "🧠",
+        "title": "Review your pain-management plan",
+        "note": "List non-opioid tools that help and note what you'll use next flare. Preparation prevents panic-driven relapse.",
+        "xp": 70,
+        "cat": "cbt",
+        "hour": 21
+      },
+      {
+        "id": "gratitude",
+        "emoji": "🙏",
+        "title": "Gratitude + plan tomorrow",
+        "note": "Three things that went right, then set up tomorrow. Gratitude rebalances a reward system tilted toward loss.",
+        "xp": 60,
+        "cat": "reflection",
+        "hour": 22
+      }
+    ],
+    "2": [
+      {
+        "id": "am_ritual",
+        "emoji": "🌅",
+        "title": "Recovery morning ritual",
+        "note": "Water, light, movement, medication as prescribed — steady and automatic. Stability is the platform for a new life.",
+        "xp": 60,
+        "cat": "reflection",
+        "hour": 7
+      },
+      {
+        "id": "purpose",
+        "emoji": "🎯",
+        "title": "30-45 min toward a goal",
+        "note": "Work, learning, or a creative project. Meaningful engagement is the long-term antidote to the void opioids filled.",
+        "xp": 110,
+        "cat": "cbt",
+        "hour": 10
+      },
+      {
+        "id": "move",
+        "emoji": "🏃",
+        "title": "Train — your standard now",
+        "note": "Movement is part of who you are. Keep feeding the reward system the clean way.",
+        "xp": 100,
+        "cat": "physical",
+        "hour": 18
+      },
+      {
+        "id": "mentor",
+        "emoji": "🫂",
+        "title": "Support someone in recovery",
+        "note": "Share hope with someone earlier on the path. Service protects your own recovery more than almost anything.",
+        "xp": 90,
+        "cat": "social",
+        "hour": 20
+      },
+      {
+        "id": "meditate",
+        "emoji": "🧘",
+        "title": "15 min mindfulness",
+        "note": "Keep building your window of tolerance for pain and stress.",
+        "xp": 80,
+        "cat": "mindfulness",
+        "hour": 21
+      },
+      {
+        "id": "reflect",
+        "emoji": "📓",
+        "title": "Identity journal",
+        "note": "Write from your recovered self. Repeated self-narrative rewires who you believe you are.",
+        "xp": 70,
+        "cat": "reflection",
+        "hour": 22
+      },
+      {
+        "id": "sleep",
+        "emoji": "🛏️",
+        "title": "Protect sleep",
+        "note": "Guard the foundation. Deep sleep keeps pain and cravings low.",
+        "xp": 90,
+        "cat": "physical",
+        "hour": 23
+      }
+    ]
+  },
+  "quotes": [
+    "Recovery is not a straight line, but every day forward counts.",
+    "Pain is a wave. You have learned to breathe until it passes.",
+    "Ask for help — it is the strongest thing you will do today.",
+    "Your brain is rebuilding its own reward, one clean day at a time.",
+    "You are not your worst day.",
+    "Connection heals what the substance never could.",
+    "Small, real rewards rebuild what the drug burned down.",
+    "Stay. The version of you on the other side is worth meeting.",
+    "Progress, not perfection.",
+    "You survived 100% of your hardest days. That is your proof."
+  ],
+  "unlocks": [
+    {
+      "id": "study",
+      "name": "Recovery Library",
+      "emoji": "📚",
+      "blurb": "Daily neuroscience lessons on habit change & the brain.",
+      "requireDay": 1
+    },
+    {
+      "id": "faith",
+      "name": "Reflection Vault",
+      "emoji": "🕯️",
+      "blurb": "Affirmations, prayers & grounding practices for any moment.",
+      "requireDay": 1
+    },
+    {
+      "id": "cravings",
+      "name": "Urge Toolkit",
+      "emoji": "🌊",
+      "blurb": "SOBER breathing + 10 tools to surf any craving in 5 minutes.",
+      "requireStreak": 2
+    },
+    {
+      "id": "identity",
+      "name": "Recovered Self Blueprint",
+      "emoji": "🧭",
+      "blurb": "Your new-identity blueprint unlocks after two weeks of proof.",
+      "requireDay": 14
+    },
+    {
+      "id": "phase2",
+      "name": "Rewiring Protocol",
+      "emoji": "🔁",
+      "blurb": "Phase 2 unlocks at Day 15 — new routines replace old loops.",
+      "requireDay": 15
+    },
+    {
+      "id": "phase3",
+      "name": "New Identity Protocol",
+      "emoji": "👑",
+      "blurb": "The final phase. Day 29+ — you become the person, not the streak.",
+      "requireDay": 29
+    },
+    {
+      "id": "alarm",
+      "name": "Alarm Mode",
+      "emoji": "🚨",
+      "blurb": "Loud alarm + check-in dialog for high-risk moments.",
+      "requireStreak": 3
+    }
+  ],
+  "phaseBoundaries": [
+    14,
+    28
+  ]
+}

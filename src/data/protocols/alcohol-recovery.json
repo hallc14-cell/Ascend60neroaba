@@ -1,0 +1,339 @@
+{
+  "id": "alcohol-recovery",
+  "addictionType": "alcohol",
+  "name": "Alcohol Recovery",
+  "tagline": "60 days to break the loop and rewire a sober brain.",
+  "description": "A neuroscience-based 60-day program to stop drinking — replace the cue→drink→relief loop with healthier rewards, calm the overactive stress response, and build a sober identity.",
+  "icon": "🍺",
+  "color": "#38bdf8",
+  "durationDays": 60,
+  "phases": [
+    {
+      "id": 0,
+      "label": "P1",
+      "weeks": "Weeks 1-2",
+      "weekRange": [
+        1,
+        2
+      ],
+      "title": "Breaking the Cycle",
+      "tag": "Detox & foundation. Remove the cue.",
+      "vibe": "The first two weeks are about safety and subtraction. Clear alcohol from your space, flood the day with water and sleep, and meet every urge with breath instead of a bottle. You are starving an old habit loop of its cue and its reward.",
+      "rank": "Day One",
+      "kcal": "Sleep 7-9 hrs",
+      "protein": "Hydrate 3 L/day",
+      "carbs": "Move 20+ min/day",
+      "fat": "1 sober contact/day",
+      "split": "SOBER-breathe on urges"
+    },
+    {
+      "id": 1,
+      "label": "P2",
+      "weeks": "Weeks 3-4",
+      "weekRange": [
+        3,
+        4
+      ],
+      "title": "Rewiring the Brain",
+      "tag": "New routine in the same slot.",
+      "vibe": "Your brain still fires the old craving at the old time — so give it a new routine to run. Where a drink used to go, insert movement, connection, or a ritual. Every repetition thickens the new neural path and thins the old one.",
+      "rank": "Rewiring",
+      "kcal": "Sleep 7-9 hrs",
+      "protein": "Hydrate 3 L/day",
+      "carbs": "Move 20+ min/day",
+      "fat": "1 sober contact/day",
+      "split": "SOBER-breathe on urges"
+    },
+    {
+      "id": 2,
+      "label": "P3",
+      "weeks": "Weeks 5-8",
+      "weekRange": [
+        5,
+        8
+      ],
+      "title": "Building a New Identity",
+      "tag": "You are a person who doesn't drink.",
+      "vibe": "This isn't a streak anymore — it's who you are. You protect your sleep, your people, and your purpose. You help someone else and you plan the life sobriety makes possible.",
+      "rank": "New Self",
+      "kcal": "Sleep 7-9 hrs",
+      "protein": "Hydrate 3 L/day",
+      "carbs": "Move 20+ min/day",
+      "fat": "1 sober contact/day",
+      "split": "SOBER-breathe on urges"
+    }
+  ],
+  "dailyTasks": {
+    "0": [
+      {
+        "id": "am_intent",
+        "emoji": "🌅",
+        "title": "Morning intention + water",
+        "note": "First thing: 500ml water, then name today's reason to stay sober out loud. Morning cortisol is high — hydration and a stated intention steady the prefrontal cortex before cravings hit.",
+        "xp": 50,
+        "cat": "reflection",
+        "hour": 7
+      },
+      {
+        "id": "clear_cues",
+        "emoji": "🧹",
+        "title": "Remove one alcohol cue",
+        "note": "Pour out a bottle, hide the glasses, unfollow a bar page. Habits fire from cues — deleting the cue is the cheapest way to weaken the loop.",
+        "xp": 70,
+        "cat": "cbt",
+        "hour": 9
+      },
+      {
+        "id": "hydrate_halt",
+        "emoji": "💧",
+        "title": "HALT check + hydrate",
+        "note": "Ask: am I Hungry, Angry, Lonely, Tired? Most 'cravings' are an unmet basic need. Eat, rest, or reach out instead of drinking.",
+        "xp": 40,
+        "cat": "mindfulness",
+        "hour": 12
+      },
+      {
+        "id": "move",
+        "emoji": "🏃",
+        "title": "20 min movement",
+        "note": "Walk, run, or lift. Exercise gives you the dopamine and endorphins alcohol used to counterfeit — a clean reward that rebuilds the reward system.",
+        "xp": 90,
+        "cat": "physical",
+        "hour": 18
+      },
+      {
+        "id": "urge_surf",
+        "emoji": "🌊",
+        "title": "Urge surfing — SOBER breath",
+        "note": "When the craving comes: Stop, Observe, Breathe, Expand awareness, Respond. Urges peak and pass in ~15-20 min like a wave. Ride it, don't fight it.",
+        "xp": 80,
+        "cat": "mindfulness",
+        "hour": 20
+      },
+      {
+        "id": "connect",
+        "emoji": "🤝",
+        "title": "Reach one sober ally",
+        "note": "Text a friend, sponsor, or meeting. Loneliness is a top relapse trigger; connection releases oxytocin, nature's anti-craving.",
+        "xp": 60,
+        "cat": "social",
+        "hour": 21
+      },
+      {
+        "id": "journal",
+        "emoji": "📓",
+        "title": "Evening journal — 3 wins, 1 trigger",
+        "note": "Write what worked and what tempted you. Naming triggers moves them from the reactive amygdala to the reasoning cortex.",
+        "xp": 60,
+        "cat": "reflection",
+        "hour": 22
+      },
+      {
+        "id": "sleep",
+        "emoji": "🛏️",
+        "title": "Lights out — protect sleep",
+        "note": "In bed by a set time, no screens. Alcohol wrecks REM sleep; restoring sleep is the fastest way to cut next-day cravings.",
+        "xp": 90,
+        "cat": "physical",
+        "hour": 23
+      }
+    ],
+    "1": [
+      {
+        "id": "am_intent",
+        "emoji": "🌅",
+        "title": "Morning intention + cold splash",
+        "note": "Water, intention, then 30s cold water on the face. Cold exposure spikes dopamine gently for hours — a natural mood lift to start rewiring the reward baseline.",
+        "xp": 60,
+        "cat": "physical",
+        "hour": 7
+      },
+      {
+        "id": "replace",
+        "emoji": "🔁",
+        "title": "Run your replacement ritual",
+        "note": "At your old drinking time, do the swap you chose (tea ritual, walk, gym, call). Same cue, new routine — this is the core of habit rewiring.",
+        "xp": 90,
+        "cat": "cbt",
+        "hour": 18
+      },
+      {
+        "id": "meditate",
+        "emoji": "🧘",
+        "title": "10 min mindfulness",
+        "note": "Sit and watch the breath. Meditation strengthens the prefrontal cortex's control over impulsive urges and lowers baseline stress.",
+        "xp": 80,
+        "cat": "mindfulness",
+        "hour": 12
+      },
+      {
+        "id": "move",
+        "emoji": "🏋️",
+        "title": "30 min exercise",
+        "note": "Push a little harder than week one. Consistent training re-sensitizes dopamine receptors dulled by alcohol.",
+        "xp": 100,
+        "cat": "physical",
+        "hour": 19
+      },
+      {
+        "id": "trigger_plan",
+        "emoji": "🧠",
+        "title": "Rehearse one high-risk scenario",
+        "note": "Picture a party or a hard evening and script your exact plan. Mental rehearsal wires the response before you need it.",
+        "xp": 70,
+        "cat": "cbt",
+        "hour": 20
+      },
+      {
+        "id": "connect",
+        "emoji": "🤝",
+        "title": "Meaningful connection",
+        "note": "A meeting, a call, or coffee with someone sober-supportive. Rebuild the social rewards drinking eroded.",
+        "xp": 70,
+        "cat": "social",
+        "hour": 21
+      },
+      {
+        "id": "gratitude",
+        "emoji": "🙏",
+        "title": "Gratitude + tomorrow's plan",
+        "note": "List 3 things you're grateful for and plan tomorrow. Gratitude shifts the brain toward the reward you already have.",
+        "xp": 60,
+        "cat": "reflection",
+        "hour": 22
+      }
+    ],
+    "2": [
+      {
+        "id": "am_ritual",
+        "emoji": "🌅",
+        "title": "Sober morning ritual",
+        "note": "Water, movement, intention — automatic now. A stable morning is the anchor of a stable identity.",
+        "xp": 60,
+        "cat": "reflection",
+        "hour": 7
+      },
+      {
+        "id": "purpose",
+        "emoji": "🎯",
+        "title": "30-45 min toward a goal",
+        "note": "Study, build, create — pour the freed-up energy into something that matters. Purpose is the long-term replacement for the bottle.",
+        "xp": 110,
+        "cat": "cbt",
+        "hour": 10
+      },
+      {
+        "id": "move",
+        "emoji": "🏃",
+        "title": "Train — your standard now",
+        "note": "Movement is who you are, not a chore. It keeps the reward system healthy for good.",
+        "xp": 100,
+        "cat": "physical",
+        "hour": 18
+      },
+      {
+        "id": "mentor",
+        "emoji": "🫂",
+        "title": "Support someone else",
+        "note": "Share your experience or check on someone struggling. Helping others is one of the strongest protectors against relapse.",
+        "xp": 90,
+        "cat": "social",
+        "hour": 20
+      },
+      {
+        "id": "meditate",
+        "emoji": "🧘",
+        "title": "10-15 min mindfulness",
+        "note": "Keep the prefrontal cortex strong. Calm brains don't need to escape.",
+        "xp": 80,
+        "cat": "mindfulness",
+        "hour": 21
+      },
+      {
+        "id": "reflect",
+        "emoji": "📓",
+        "title": "Identity journal",
+        "note": "Write as the person you've become: 'I am someone who...'. Repeated self-statements reshape self-concept.",
+        "xp": 70,
+        "cat": "reflection",
+        "hour": 22
+      },
+      {
+        "id": "sleep",
+        "emoji": "🛏️",
+        "title": "Protect sleep",
+        "note": "Guard your recovery's foundation. Consistent sleep locks in every gain.",
+        "xp": 90,
+        "cat": "physical",
+        "hour": 23
+      }
+    ]
+  },
+  "quotes": [
+    "The urge is a wave. You are the surfer, not the ocean.",
+    "You never regret the drink you didn't take.",
+    "Sobriety is not deprivation — it's the return of everything alcohol stole.",
+    "One day at a time is still forward.",
+    "Your brain is healing every single sober hour.",
+    "Cravings lie. They promise relief and deliver the trap.",
+    "The opposite of addiction is connection.",
+    "You are not missing out. You are getting yourself back.",
+    "Discomfort now, or the same regret forever. Choose the growth.",
+    "Two months sober rewires what two years of promises never could."
+  ],
+  "unlocks": [
+    {
+      "id": "study",
+      "name": "Recovery Library",
+      "emoji": "📚",
+      "blurb": "Daily neuroscience lessons on habit change & the brain.",
+      "requireDay": 1
+    },
+    {
+      "id": "faith",
+      "name": "Reflection Vault",
+      "emoji": "🕯️",
+      "blurb": "Affirmations, prayers & grounding practices for any moment.",
+      "requireDay": 1
+    },
+    {
+      "id": "cravings",
+      "name": "Urge Toolkit",
+      "emoji": "🌊",
+      "blurb": "SOBER breathing + 10 tools to surf any craving in 5 minutes.",
+      "requireStreak": 2
+    },
+    {
+      "id": "identity",
+      "name": "Sober Self Blueprint",
+      "emoji": "🧭",
+      "blurb": "Your new-identity blueprint unlocks after two weeks of proof.",
+      "requireDay": 14
+    },
+    {
+      "id": "phase2",
+      "name": "Rewiring Protocol",
+      "emoji": "🔁",
+      "blurb": "Phase 2 unlocks at Day 15 — new routines replace old loops.",
+      "requireDay": 15
+    },
+    {
+      "id": "phase3",
+      "name": "New Identity Protocol",
+      "emoji": "👑",
+      "blurb": "The final phase. Day 29+ — you become the person, not the streak.",
+      "requireDay": 29
+    },
+    {
+      "id": "alarm",
+      "name": "Alarm Mode",
+      "emoji": "🚨",
+      "blurb": "Loud alarm + check-in dialog for high-risk moments.",
+      "requireStreak": 3
+    }
+  ],
+  "phaseBoundaries": [
+    14,
+    28
+  ]
+}

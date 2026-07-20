@@ -1,9 +1,25 @@
 /**
- * Onboarding feature (reserved for Phase 2).
+ * Onboarding feature (Phase 2).
  *
- * Will host the first-run flow: choosing a recovery track / protocol,
- * capturing primary triggers & preferred coping strategies, and seeding
- * `user_profiles`. The protocol registry + profileService already expose
- * everything this flow needs.
+ * First-run flow: a welcome screen followed by the recovery-track / protocol
+ * selector. On confirmation it seeds the local progress store + user profile
+ * with the chosen program and routes to the dashboard.
  */
-export {};
+import { loadLocal } from "@/features/checklist/services/progressRepository";
+
+export { OnboardingFlow } from "./OnboardingFlow";
+export { ProtocolSelector } from "./ProtocolSelector";
+
+/**
+ * Whether the user has already picked a program. New users have neither a
+ * protocolId nor a startDate in their local store and should be routed through
+ * onboarding first. Existing users (who have started a program) skip it.
+ */
+export function hasCompletedOnboarding(): boolean {
+  try {
+    const store = loadLocal();
+    return Boolean(store.protocolId || store.startDate);
+  } catch {
+    return false;
+  }
+}

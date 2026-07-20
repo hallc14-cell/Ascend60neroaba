@@ -1,0 +1,339 @@
+{
+  "id": "weight-loss",
+  "addictionType": "food",
+  "name": "Weight Loss",
+  "tagline": "60 days to rewire cravings and build a lean routine.",
+  "description": "A neuroscience-based 60-day fat-loss program — break the sugar/craving loop, retrain hunger and reward signals, move daily, and build eating habits that stick long after day 60.",
+  "icon": "🥗",
+  "color": "#34d399",
+  "durationDays": 60,
+  "phases": [
+    {
+      "id": 0,
+      "label": "P1",
+      "weeks": "Weeks 1-2",
+      "weekRange": [
+        1,
+        2
+      ],
+      "title": "Breaking the Cycle",
+      "tag": "Detox from sugar & mindless eating.",
+      "vibe": "The first two weeks reset your palate and your habits. Cut the liquid sugar, front-load protein, and walk daily. You're weakening the cue→snack→dopamine loop that drives overeating, and teaching your body real hunger again.",
+      "rank": "Day One",
+      "kcal": "1,500-1,700 kcal",
+      "protein": "Protein 100-150g",
+      "carbs": "8-10k steps/day",
+      "fat": "Sleep 7-9 hrs",
+      "split": "Water before every meal"
+    },
+    {
+      "id": 1,
+      "label": "P2",
+      "weeks": "Weeks 3-4",
+      "weekRange": [
+        3,
+        4
+      ],
+      "title": "Rewiring the Brain",
+      "tag": "New rewards, steady deficit.",
+      "vibe": "Cravings still fire at the old times — replace the routine, not the willpower. Swap the evening snack for a ritual, train a little harder, and let a mild consistent deficit do the work. New habits are becoming automatic.",
+      "rank": "Rewiring",
+      "kcal": "1,500-1,700 kcal",
+      "protein": "Protein 100-150g",
+      "carbs": "8-10k steps/day",
+      "fat": "Sleep 7-9 hrs",
+      "split": "Water before every meal"
+    },
+    {
+      "id": 2,
+      "label": "P3",
+      "weeks": "Weeks 5-8",
+      "weekRange": [
+        5,
+        8
+      ],
+      "title": "Building a New Identity",
+      "tag": "A lean routine you actually keep.",
+      "vibe": "You now eat and move like a lean person by default. The scale is a lagging indicator of habits already locked in. You plan for the maintenance life ahead.",
+      "rank": "New Self",
+      "kcal": "1,500-1,700 kcal",
+      "protein": "Protein 100-150g",
+      "carbs": "8-10k steps/day",
+      "fat": "Sleep 7-9 hrs",
+      "split": "Water before every meal"
+    }
+  ],
+  "dailyTasks": {
+    "0": [
+      {
+        "id": "am_water",
+        "emoji": "💧",
+        "title": "Water first + weigh-in",
+        "note": "500ml water on waking, then weigh yourself. Morning hydration curbs false hunger; a daily data point keeps you honest without obsessing.",
+        "xp": 40,
+        "cat": "physical",
+        "hour": 7
+      },
+      {
+        "id": "protein_am",
+        "emoji": "🍳",
+        "title": "Protein-forward breakfast",
+        "note": "30g+ protein (eggs, Greek yogurt, shake). Protein blunts the hunger hormone ghrelin and stabilizes blood sugar so cravings never spike.",
+        "xp": 70,
+        "cat": "cbt",
+        "hour": 8
+      },
+      {
+        "id": "log",
+        "emoji": "📝",
+        "title": "Log everything you eat",
+        "note": "Track every bite in an app. Awareness alone cuts intake — you can't rewire a loop you can't see.",
+        "xp": 60,
+        "cat": "cbt",
+        "hour": 13
+      },
+      {
+        "id": "steps",
+        "emoji": "🚶",
+        "title": "8,000+ steps",
+        "note": "Walk after meals when you can. Steady low-intensity movement burns fat and blunts post-meal glucose without spiking appetite.",
+        "xp": 90,
+        "cat": "physical",
+        "hour": 17
+      },
+      {
+        "id": "halt",
+        "emoji": "🧭",
+        "title": "HALT before snacking",
+        "note": "Hungry, Angry, Lonely, Tired? Emotional eating is a routine triggered by feelings, not fuel. Meet the real need first.",
+        "xp": 50,
+        "cat": "mindfulness",
+        "hour": 20
+      },
+      {
+        "id": "craving_tool",
+        "emoji": "🌊",
+        "title": "Beat one craving",
+        "note": "Sparkling water + brush teeth, or 15 squats. Cravings pass in ~10 min; a competing action rides out the wave.",
+        "xp": 50,
+        "cat": "cbt",
+        "hour": 21
+      },
+      {
+        "id": "journal",
+        "emoji": "📓",
+        "title": "Evening journal — wins + triggers",
+        "note": "Note what you ate well and what tripped you. Reflection turns slips into data instead of shame.",
+        "xp": 50,
+        "cat": "reflection",
+        "hour": 22
+      },
+      {
+        "id": "sleep",
+        "emoji": "🛏️",
+        "title": "Sleep 7-9 hrs",
+        "note": "Poor sleep raises ghrelin and lowers leptin — you literally get hungrier. Sleep is a fat-loss tool.",
+        "xp": 90,
+        "cat": "physical",
+        "hour": 23
+      }
+    ],
+    "1": [
+      {
+        "id": "am_water",
+        "emoji": "💧",
+        "title": "Water first + weigh-in",
+        "note": "Keep the morning data habit. Trends over days matter, not any single number.",
+        "xp": 40,
+        "cat": "physical",
+        "hour": 7
+      },
+      {
+        "id": "protein_am",
+        "emoji": "🍳",
+        "title": "Protein + fiber breakfast",
+        "note": "Add vegetables/fruit for fiber. Fiber slows digestion and feeds satiety — you eat less without trying.",
+        "xp": 70,
+        "cat": "cbt",
+        "hour": 8
+      },
+      {
+        "id": "train",
+        "emoji": "🏋️",
+        "title": "Strength training 30 min",
+        "note": "Lift 3-4x/week. Muscle raises your resting burn and protects your metabolism in a deficit.",
+        "xp": 100,
+        "cat": "physical",
+        "hour": 18
+      },
+      {
+        "id": "replace",
+        "emoji": "🔁",
+        "title": "Swap the evening snack ritual",
+        "note": "Replace mindless snacking with tea + a walk or a hobby. Same cue and time, healthier routine — that's the rewire.",
+        "xp": 80,
+        "cat": "cbt",
+        "hour": 20
+      },
+      {
+        "id": "steps",
+        "emoji": "🚶",
+        "title": "9,000+ steps",
+        "note": "Nudge the daily target up. Small increases compound over 60 days.",
+        "xp": 90,
+        "cat": "physical",
+        "hour": 17
+      },
+      {
+        "id": "plan_meals",
+        "emoji": "🥗",
+        "title": "Plan tomorrow's meals",
+        "note": "Decide meals in advance. Pre-commitment beats in-the-moment willpower every time.",
+        "xp": 60,
+        "cat": "cbt",
+        "hour": 21
+      },
+      {
+        "id": "journal",
+        "emoji": "📓",
+        "title": "Gratitude + reflect",
+        "note": "Note progress you feel, not just the scale — energy, clothes, mood. Non-scale wins sustain motivation.",
+        "xp": 50,
+        "cat": "reflection",
+        "hour": 22
+      }
+    ],
+    "2": [
+      {
+        "id": "am_ritual",
+        "emoji": "💧",
+        "title": "Morning ritual + weigh-in",
+        "note": "Water, weigh, plan — automatic now. Systems, not motivation, carry you.",
+        "xp": 50,
+        "cat": "physical",
+        "hour": 7
+      },
+      {
+        "id": "protein_am",
+        "emoji": "🍳",
+        "title": "Dialed-in breakfast",
+        "note": "Your go-to high-protein meal. Consistency at breakfast anchors the whole day.",
+        "xp": 70,
+        "cat": "cbt",
+        "hour": 8
+      },
+      {
+        "id": "train",
+        "emoji": "🏋️",
+        "title": "Train — your standard now",
+        "note": "Strength + steps are just who you are. Keep progressive overload going.",
+        "xp": 100,
+        "cat": "physical",
+        "hour": 18
+      },
+      {
+        "id": "mindful_eat",
+        "emoji": "🧘",
+        "title": "One mindful meal",
+        "note": "Eat slowly, no screens, notice fullness. Mindful eating retrains satiety signals for the long run.",
+        "xp": 70,
+        "cat": "mindfulness",
+        "hour": 19
+      },
+      {
+        "id": "steps",
+        "emoji": "🚶",
+        "title": "10,000 steps",
+        "note": "Your baseline activity. Movement is a lifestyle now, not a diet phase.",
+        "xp": 90,
+        "cat": "physical",
+        "hour": 17
+      },
+      {
+        "id": "maintain_plan",
+        "emoji": "🎯",
+        "title": "Sketch your maintenance plan",
+        "note": "Plan how you'll eat after day 60. Weight kept off is a habit kept up.",
+        "xp": 70,
+        "cat": "cbt",
+        "hour": 21
+      },
+      {
+        "id": "journal",
+        "emoji": "📓",
+        "title": "Identity journal",
+        "note": "Write as a lean, active person. Self-image drives behavior more than any diet rule.",
+        "xp": 60,
+        "cat": "reflection",
+        "hour": 22
+      }
+    ]
+  },
+  "quotes": [
+    "You don't need more willpower — you need fewer cravings, and those you can rewire.",
+    "Every meal is a vote for the body you're becoming.",
+    "The scale is a lagging indicator of habits you already own.",
+    "Hunger is a wave, not an emergency.",
+    "Protein and steps beat motivation every time.",
+    "You're not on a diet. You're building a default.",
+    "Sleep is the fat-loss tool no one is selling you.",
+    "Discipline at the store is easier than willpower in the kitchen.",
+    "Small deficit, big consistency, real results.",
+    "Sixty days of habits outlast any 3-day crash diet."
+  ],
+  "unlocks": [
+    {
+      "id": "study",
+      "name": "Recovery Library",
+      "emoji": "📚",
+      "blurb": "Daily neuroscience lessons on habit change & the brain.",
+      "requireDay": 1
+    },
+    {
+      "id": "faith",
+      "name": "Reflection Vault",
+      "emoji": "🕯️",
+      "blurb": "Affirmations, prayers & grounding practices for any moment.",
+      "requireDay": 1
+    },
+    {
+      "id": "cravings",
+      "name": "Urge Toolkit",
+      "emoji": "🌊",
+      "blurb": "SOBER breathing + 10 tools to surf any craving in 5 minutes.",
+      "requireStreak": 2
+    },
+    {
+      "id": "identity",
+      "name": "Lean Self Blueprint",
+      "emoji": "🧭",
+      "blurb": "Your new-identity blueprint unlocks after two weeks of proof.",
+      "requireDay": 14
+    },
+    {
+      "id": "phase2",
+      "name": "Rewiring Protocol",
+      "emoji": "🔁",
+      "blurb": "Phase 2 unlocks at Day 15 — new routines replace old loops.",
+      "requireDay": 15
+    },
+    {
+      "id": "phase3",
+      "name": "New Identity Protocol",
+      "emoji": "👑",
+      "blurb": "The final phase. Day 29+ — you become the person, not the streak.",
+      "requireDay": 29
+    },
+    {
+      "id": "alarm",
+      "name": "Alarm Mode",
+      "emoji": "🚨",
+      "blurb": "Loud alarm + check-in dialog for high-risk moments.",
+      "requireStreak": 3
+    }
+  ],
+  "phaseBoundaries": [
+    14,
+    28
+  ]
+}

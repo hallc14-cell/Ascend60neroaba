@@ -68,6 +68,7 @@ export type AddictionType =
   | "opioid"
   | "food"
   | "digital"
+  | "productivity"
   | "general";
 
 /**
@@ -83,6 +84,12 @@ export interface ProtocolDefinition {
   name: string;
   /** short marketing/description line */
   tagline: string;
+  /** longer description shown on the onboarding selector card */
+  description?: string;
+  /** emoji icon used by selection UIs */
+  icon?: string;
+  /** theme/accent color (hex) used by selection UIs */
+  color?: string;
   /** total days in the program (usually 60) */
   durationDays: number;
   phases: Phase[];
@@ -100,5 +107,8 @@ export interface ProtocolSummary {
   addictionType: AddictionType;
   name: string;
   tagline: string;
+  description?: string;
+  icon?: string;
+  color?: string;
   durationDays: number;
 }

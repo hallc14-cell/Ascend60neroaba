@@ -15,9 +15,10 @@ import {
   getProtocolById,
   getProtocolByAddiction,
   listProtocols,
+  listRecoveryProtocols,
 } from "../data/registry";
 
-export { listProtocols };
+export { listProtocols, listRecoveryProtocols };
 
 /** Resolve a protocol by id with graceful fallback to the default. */
 export function loadProtocol(id?: string): ProtocolDefinition {
