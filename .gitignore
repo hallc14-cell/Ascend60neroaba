@@ -50,3 +50,7 @@ coverage/
 # ── Misc / internal ──────────────────────────────────────────────────────────
 .abacus.donotdelete
 bun.lockb
+
+# Python
+__pycache__/
+*.pyc
