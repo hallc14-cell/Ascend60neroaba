@@ -1,0 +1,4 @@
+project_id = "wrdgeckiwoauryxrrpes"
+
+[functions.send-hourly-push]
+verify_jwt = false

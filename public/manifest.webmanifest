@@ -1,0 +1,14 @@
+{
+  "name": "Looksmax OS — 60-Day Transformation",
+  "short_name": "Looksmax",
+  "description": "Your daily protocol, hourly check-ins, and visible progress.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a0a14",
+  "theme_color": "#FF6B35",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

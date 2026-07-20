@@ -1,0 +1,1 @@
+UPDATE public.push_subscriptions SET last_task_key = NULL, task_reminders = true WHERE task_reminders IS NOT NULL;
